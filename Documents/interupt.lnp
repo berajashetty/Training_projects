@@ -1,0 +1,3 @@
+"intr_blink.obj" 
+TO "interupt" 
+RAMSIZE(256) 

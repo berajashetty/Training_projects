@@ -1,0 +1,80 @@
+C51 COMPILER V9.52.0.0   INTR_BLINK                                                        10/27/2022 11:58:50 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE INTR_BLINK
+OBJECT MODULE PLACED IN intr_blink.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE intr_blink.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          sbit led_main= P1^0;
+   4          sbit led_intr0= P1^1;
+   5          sbit led_intr1= P1^2;
+   6          
+   7          //#define LED P0
+   8          
+   9          void delay()
+  10            {
+  11   1        int i,j;
+  12   1        for (i=0;i<10;i++){
+  13   2        for (j=0;j<1000;j++);
+  14   2          
+  15   2        } 
+  16   1      }
+  17            
+  18          
+  19          /*void intr0_external() interrupt 0
+  20          { 
+  21            int j;
+  22            for(j=0;j<3;j++){
+  23             led_intr0=0;
+  24             delay();
+  25             led_intr0=1;
+  26             delay();
+  27            }
+  28          } */
+  29          
+  30          void intr1_external() interrupt 2
+  31          { 
+  32   1          int j;
+  33   1          for(j=0;j<5;j++){
+  34   2           led_intr1=0;
+  35   2           delay();
+  36   2           led_intr1=1;
+  37   2           delay();
+  38   2        }
+  39   1      }
+  40           main()
+  41           {
+  42   1          EA=1;
+  43   1          EX0=1;
+  44   1          EX1=1;
+  45   1          IT1=1;
+  46   1          IT0=1;
+  47   1        
+  48   1       while(1)
+  49   1        {
+  50   2          led_main =0;
+  51   2          delay();
+  52   2          led_main=1;
+  53   2          delay();
+  54   2        }
+  55   1       }
+C51 COMPILER V9.52.0.0   INTR_BLINK                                                        10/27/2022 11:58:50 PAGE 2   
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    111    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

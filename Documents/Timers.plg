@@ -1,0 +1,133 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\JBQ1KOR\Documents\Timers.uvproj
+Project File Date:  10/31/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(14): error C141: syntax error near 'int'
+Target not created
+Rebuild target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(14): error C141: syntax error near 'int'
+Target not created
+Build target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(33): warning C276: constant in condition expression
+linking...
+Program Size: data=9.0 xdata=0 code=88
+"Timer_mode" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(33): warning C276: constant in condition expression
+linking...
+Program Size: data=9.0 xdata=0 code=88
+"Timer_mode" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(13): error C141: syntax error near ';'
+Timer_mode.c(14): error C202: 'cnt': undefined identifier
+Timer_mode.c(16): error C202: 'cnt': undefined identifier
+Timer_mode.c(20): error C202: 'cnt': undefined identifier
+Timer_mode.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(14): error C141: syntax error near ';'
+Timer_mode.c(17): error C202: 'cnt': undefined identifier
+Timer_mode.c(31): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(14): error C141: syntax error near ';'
+Timer_mode.c(31): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling Timer_mode.c...
+Timer_mode.c(14): error C141: syntax error near ';'
+Timer_mode.c(31): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(31): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(31): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+timer_intr.c(72): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(14): error C141: syntax error near ';'
+timer_intr.c(30): error C141: syntax error near ';'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(51): warning C276: constant in condition expression
+linking...
+Program Size: data=11.0 xdata=0 code=100
+"Timer_intr" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=100
+"Timer_intr" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(51): warning C276: constant in condition expression
+linking...
+Program Size: data=11.0 xdata=0 code=100
+"Timer_intr" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(48): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+timer_intr.c(48): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling timer_intr.c...
+linking...
+Program Size: data=13.0 xdata=0 code=75
+"Timer_intr" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling timer_intr.c...
+linking...
+Program Size: data=13.0 xdata=0 code=75
+"Timer_intr" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,389 @@
+compiling serail.c...
+serail.c(19): error C101: ''h': invalid character constant
+serail.c(19): error C141: syntax error near 'ello'
+serail.c(19): error C101: '')': invalid character constant
+serail.c - 3 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(19): error C101: ''h': invalid character constant
+serail.c(19): error C141: syntax error near 'ello'
+serail.c(19): error C101: '')': invalid character constant
+Target not created
+compiling serail.c...
+serail.c(19): warning C214: 'Argument': conversion: pointer to non-pointer
+serail.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 code=69
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+compiling serail.c...
+serail.c(19): warning C214: 'Argument': conversion: pointer to non-pointer
+serail.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 code=65
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+compiling serail.c...
+serail.c(19): warning C214: 'Argument': conversion: pointer to non-pointer
+serail.c(12): warning C280: 'serialdata': unreferenced local variable
+serail.c - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RECIEVEBYTESERIALLY?SERAIL
+Program Size: data=10.0 xdata=0 code=60
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).
+compiling serail.c...
+serail.c(19): warning C214: 'Argument': conversion: pointer to non-pointer
+serail.c(12): warning C280: 'serialdata': unreferenced local variable
+serail.c - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RECIEVEBYTESERIALLY?SERAIL
+Program Size: data=10.0 xdata=0 code=60
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).
+compiling serail.c...
+serail.c(19): warning C214: 'Argument': conversion: pointer to non-pointer
+serail.c(12): warning C280: 'serialdata': unreferenced local variable
+serail.c - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 code=52
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(19): warning C214: 'Argument': conversion: pointer to non-pointer
+linking...
+Program Size: data=9.0 xdata=0 code=52
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=9.0 xdata=0 code=50
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=50
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=9.0 xdata=0 code=50
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+compiling serail.c...
+serail.c(9): error C141: syntax error near '{'
+serail.c(11): error C129: missing ';' before '{'
+serail.c - 2 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(9): error C141: syntax error near '{'
+serail.c(11): error C129: missing ';' before '{'
+Target not created
+compiling serail.c...
+serail.c(12): warning C206: 'sendByteserialy': missing function-prototype
+serail.c(12): error C267: 'sendByteserialy': requires ANSI-style prototype
+serail.c - 1 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(11): warning C206: 'sendByteserialy': missing function-prototype
+serail.c(11): error C267: 'sendByteserialy': requires ANSI-style prototype
+serail.c(25): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(13): warning C206: 'sendByteserialy': missing function-prototype
+serail.c(13): error C267: 'sendByteserialy': requires ANSI-style prototype
+serail.c(25): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(13): warning C206: 'sendByteserialy': missing function-prototype
+serail.c(13): error C267: 'sendByteserialy': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(12): warning C206: 'sendByteserialy': missing function-prototype
+serail.c(12): error C267: 'sendByteserialy': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(12): warning C206: 'sendByteserially': missing function-prototype
+serail.c(12): error C267: 'sendByteserially': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(12): warning C206: 'sendByteSerially': missing function-prototype
+serail.c(12): error C267: 'sendByteSerially': requires ANSI-style prototype
+serail.c(35): error C231: 'sendByteSerially': redefinition
+serail.c(39): error C231: 'sendByteSerially': redefinition
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(24): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=12.0 xdata=0 code=126
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=12.0 xdata=0 code=189
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+compiling serail.c...
+serail.c(30): error C141: syntax error near 'void'
+serail.c - 1 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(30): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=12.0 xdata=0 code=186
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(41): error C202: 'serialdata': undefined identifier
+serail.c(45): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(14): warning C275: expression with possibly no effect
+serail.c(41): error C193: '=': illegal type conversion from/to 'void'
+serail.c(59): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(14): error C202: 'ch': undefined identifier
+serail.c(42): error C202: 'ch': undefined identifier
+serail.c(60): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(42): error C202: 'ch': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=13.1 xdata=0 code=253
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=13.1 xdata=0 code=253
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=13.1 xdata=0 code=253
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=13.1 xdata=0 code=253
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=13.1 xdata=0 code=255
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling serail.c...
+serail.c(16): error C141: syntax error near '}'
+serail.c(37): error C202: 'string': undefined identifier
+serail.c(37): error C141: syntax error near '='
+serail.c(41): error C202: 'string': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(31): error C202: 'string': undefined identifier
+serail.c(31): error C141: syntax error near '='
+serail.c(35): error C202: 'string': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(31): error C141: syntax error near 'char'
+serail.c(31): error C202: 'string': undefined identifier
+serail.c(35): error C202: 'string': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(31): error C195: '*' illegal indirection
+serail.c(35): error C195: '*' illegal indirection
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(31): error C195: '*' illegal indirection
+serail.c(31): error C101: ''H': invalid character constant
+serail.c(31): error C141: syntax error near 'ello'
+serail.c(31): error C101: '';': invalid character constant
+serail.c(32): error C141: syntax error near 'while'
+serail.c(35): error C195: '*' illegal indirection
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(31): error C195: '*' illegal indirection
+serail.c(35): error C195: '*' illegal indirection
+Target not created
+Build target 'Target 1'
+compiling serail.c...
+serail.c(31): warning C260: '=': pointer truncation
+linking...
+Program Size: data=12.1 xdata=0 code=269
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+serail.c(31): warning C260: '=': pointer truncation
+linking...
+Program Size: data=12.1 xdata=0 code=261
+creating hex file from "serial"...
+"serial" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+serail.c(31): error C141: syntax error near 'char'
+Target not created
+Rebuild target 'Target 1'
+compiling serail.c...
+serail.c(31): error C141: syntax error near 'char'
+Target not created
+Rebuild target 'Target 1'
+compiling serail.c...
+serail.c(31): error C141: syntax error near 'char'
+Target not created
+Rebuild target 'Target 1'
+compiling serail.c...
+serail.c(31): error C141: syntax error near 'char'
+Target not created
+Rebuild target 'Target 1'
+compiling serail.c...
+serail.c(31): error C141: syntax error near 'char'
+Target not created
+Rebuild target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=14.0 xdata=0 code=216
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=14.0 xdata=0 code=257
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=14.0 xdata=0 code=264
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+compiling serail.c...
+linking...
+Program Size: data=12.1 xdata=0 code=252
+creating hex file from "serial"...
+"serial" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling adc.c...
+adc.c(4): error C141: syntax error near 'P3', expected '='
+adc.c(5): error C141: syntax error near 'P3', expected '='
+adc.c(6): error C141: syntax error near 'P3', expected '='
+adc.c(7): error C141: syntax error near 'P3', expected '='
+adc.c(13): error C202: 'CS': undefined identifier
+adc.c(16): error C202: 'CS': undefined identifier
+adc.c(17): error C202: 'intr': undefined identifier
+adc.c(21): error C202: 'CS': undefined identifier
+adc.c(25): error C202: 'CS': undefined identifier
+Target not created
+compiling adc.c...
+adc.c(4): error C141: syntax error near 'P3', expected '='
+adc.c(5): error C231: 'WR': redefinition
+adc.c(6): error C231: 'RD': redefinition
+adc.c(7): error C144: base^pos: invalid bit position
+adc.c(13): error C202: 'CS': undefined identifier
+adc.c(16): error C202: 'CS': undefined identifier
+adc.c(17): error C202: 'intr': undefined identifier
+adc.c(21): error C202: 'CS': undefined identifier
+adc.c(25): error C202: 'CS': undefined identifier
+adc.c - 9 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling adc.c...
+adc.c(4): error C141: syntax error near 'P3', expected '='
+adc.c(5): error C231: 'WR': redefinition
+adc.c(6): error C231: 'RD': redefinition
+adc.c(7): error C144: base^pos: invalid bit position
+adc.c(13): error C202: 'CS': undefined identifier
+adc.c(16): error C202: 'CS': undefined identifier
+adc.c(17): error C202: 'intr': undefined identifier
+adc.c(21): error C202: 'CS': undefined identifier
+adc.c(25): error C202: 'CS': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling adc.c...
+adc.c(4): error C141: syntax error near 'P3', expected '='
+adc.c(17): error C202: 'intr': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling adc.c...
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  adc.obj (ADC)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?ADC
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 080DH
+Program Size: data=13.1 xdata=0 code=287
+Target not created
+compiling adc.c...
+adc.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  adc.obj (ADC)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?ADC
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 080DH
+Program Size: data=13.1 xdata=0 code=287
+Target not created
+compiling adc.c...
+adc.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  adc.obj (ADC)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?ADC
+*** ERROR L118: REFERENCE MADE TO ERRONEOUS EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 080DH
+Program Size: data=13.1 xdata=0 code=287
+Target not created

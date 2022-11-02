@@ -1,0 +1,110 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        11/02/2022  15:26:33  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE adc.obj TO adc RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  adc.obj (ADC)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  adc (ADC)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0001H     UNIT         ?DT?ADC
+            IDATA   0009H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     000CH     UNIT         ?PR?CONV?ADC
+            CODE    080CH     000CH     UNIT         ?PR?READ?ADC
+            CODE    0818H     000CH     UNIT         ?C_C51STARTUP
+            CODE    0824H     000BH     UNIT         ?PR?MAIN?ADC
+
+
+
+OVERLAY MAP OF MODULE:   adc (ADC)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?ADC
+
+?PR?MAIN?ADC
+  +--> ?PR?CONV?ADC
+  +--> ?PR?READ?ADC
+
+
+
+SYMBOL TABLE OF MODULE:  adc (ADC)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ADC
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+BL51 BANKED LINKER/LOCATER V6.22                                                      11/02/2022  15:26:33  PAGE 2
+
+
+  C:080CH         PUBLIC        read
+  C:0824H         PUBLIC        main
+  C:0800H         PUBLIC        conv
+  B:00B0H.2       PUBLIC        intr
+  D:0008H         PUBLIC        adc_val
+  B:00B0H.7       PUBLIC        cs
+  B:00B0H.7       PUBLIC        rd
+  B:00B0H.6       PUBLIC        wr
+  -------         PROC          CONV
+  C:0800H         LINE#         10
+  C:0800H         LINE#         12
+  C:0800H         LINE#         13
+  C:0802H         LINE#         14
+  C:0804H         LINE#         15
+  C:0806H         LINE#         16
+  C:0808H         LINE#         17
+  C:080BH         LINE#         18
+  -------         ENDPROC       CONV
+  -------         PROC          READ
+  C:080CH         LINE#         19
+  C:080CH         LINE#         20
+  C:080CH         LINE#         21
+  C:080EH         LINE#         22
+  C:0810H         LINE#         23
+  C:0813H         LINE#         24
+  C:0815H         LINE#         25
+  C:0817H         LINE#         26
+  -------         ENDPROC       READ
+  -------         PROC          MAIN
+  C:0824H         LINE#         27
+  C:0824H         LINE#         28
+  C:0824H         LINE#         29
+  C:0824H         LINE#         30
+  C:0824H         LINE#         31
+  C:0827H         LINE#         32
+  C:082AH         LINE#         33
+  C:082DH         LINE#         34
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        ADC
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0023H BYTE ( 1%) *
+******************************************************************************
+
+Program Size: data=10.0 xdata=0 code=50
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

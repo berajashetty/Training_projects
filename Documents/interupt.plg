@@ -1,0 +1,324 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\JBQ1KOR\Documents\interupt.uvproj
+Project File Date:  10/27/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(3): error C202: 'p': undefined identifier
+INTRRUPT.c(4): error C202: 'p': undefined identifier
+INTRRUPT.c(15): error C202: 'led_intr0': undefined identifier
+INTRRUPT.c(17): error C202: 'led_intr0': undefined identifier
+INTRRUPT.c(27): error C141: syntax error near ')'
+INTRRUPT.c(29): error C202: 'led_main': undefined identifier
+INTRRUPT.c(31): error C202: 'led_main': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(3): error C202: 'p0': undefined identifier
+INTRRUPT.c(4): error C202: 'p0': undefined identifier
+INTRRUPT.c(15): error C202: 'led_intr0': undefined identifier
+INTRRUPT.c(17): error C202: 'led_intr0': undefined identifier
+INTRRUPT.c(27): error C141: syntax error near ')'
+INTRRUPT.c(29): error C202: 'led_main': undefined identifier
+INTRRUPT.c(31): error C202: 'led_main': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(4): error C231: 'led_main': redefinition
+INTRRUPT.c(15): error C202: 'led_intr0': undefined identifier
+INTRRUPT.c(17): error C202: 'led_intr0': undefined identifier
+INTRRUPT.c(27): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(27): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(27): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(27): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(12): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=81
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=81
+"interupt" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(13): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=114
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=114
+"interupt" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(13): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=114
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling INTRRUPT.c...
+INTRRUPT.c(13): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=114
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=114
+"interupt" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling int_blink.c...
+int_blink.c(35): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+compiling int_blink.c...
+int_blink.c(13): warning C290: missing return value
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR1_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR0_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY
+    MODULE:  int_blink.obj (INT_BLINK)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?INT_BLINK
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0013H
+    TO:      0015H
+Program Size: data=9.0 xdata=0 code=257
+Target not created
+Build target 'Target 1'
+compiling int_blink.c...
+int_blink.c(13): warning C290: missing return value
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR1_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR0_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY
+    MODULE:  int_blink.obj (INT_BLINK)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?INT_BLINK
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0013H
+    TO:      0015H
+Program Size: data=9.0 xdata=0 code=257
+Target not created
+Build target 'Target 1'
+compiling int_blink.c...
+int_blink.c(13): warning C290: missing return value
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR1_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR0_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY
+    MODULE:  int_blink.obj (INT_BLINK)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?INT_BLINK
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0013H
+    TO:      0015H
+Program Size: data=9.0 xdata=0 code=257
+Target not created
+Build target 'Target 1'
+compiling int_blink.c...
+int_blink.c(13): warning C290: missing return value
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR1_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR0_EXTERNAL
+    MODULE:  int_blink.obj (INT_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY
+    MODULE:  int_blink.obj (INT_BLINK)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?INT_BLINK
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0013H
+    TO:      0015H
+Program Size: data=9.0 xdata=0 code=257
+Target not created
+Build target 'Target 1'
+compiling int_blink.c...
+int_blink.c(1): error C318: can't open file 'int_blink.c'
+compiling intr_blink.c...
+intr_blink.c(13): warning C290: missing return value
+Target not created
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(13): warning C290: missing return value
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR1_EXTERNAL
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR0_EXTERNAL
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?INTR_BLINK
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0013H
+    TO:      0015H
+Program Size: data=9.0 xdata=0 code=257
+Target not created
+Build target 'Target 1'
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  MAIN
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR1_EXTERNAL
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  INTR0_EXTERNAL
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  DELAY
+    MODULE:  intr_blink.obj (INTR_BLINK)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN?INTR_BLINK
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0013H
+    TO:      0015H
+Program Size: data=9.0 xdata=0 code=257
+Target not created
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(13): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=158
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(13): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=162
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(15): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=176
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(13): error C202: 'J': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(15): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=176
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(16): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=192
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(16): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=129
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(16): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=129
+"interupt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+intr_blink.c(16): warning C290: missing return value
+linking...
+Program Size: data=9.0 xdata=0 code=129
+creating hex file from "int_blink"...
+"int_blink" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+linking...
+Program Size: data=9.0 xdata=0 code=129
+creating hex file from "int_blink"...
+"int_blink" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=129
+creating hex file from "int_blink"...
+"int_blink" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+linking...
+Program Size: data=9.0 xdata=0 code=129
+creating hex file from "int_blink"...
+"int_blink" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling intr_blink.c...
+linking...
+Program Size: data=9.0 xdata=0 code=129
+creating hex file from "int_blink"...
+"int_blink" - 0 Error(s), 0 Warning(s).

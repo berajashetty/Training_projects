@@ -1,0 +1,4 @@
+"serail.obj",
+"adc.obj" 
+TO "serial" 
+RAMSIZE(256) 

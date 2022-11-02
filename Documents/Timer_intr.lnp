@@ -1,0 +1,3 @@
+"timer_intr.obj" 
+TO "Timer_intr" 
+RAMSIZE(256) 
